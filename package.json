@@ -3,5 +3,8 @@
 	"description": "Repro",
 	"workspaces": [
 		"packages/*"
-	]
+	],
+	"scripts": {
+		"commitlint": "npm run commitlint -w repro-subpackage -- --from=HEAD~1 --verbose"
+	}
 }
