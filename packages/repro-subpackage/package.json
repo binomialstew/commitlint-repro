@@ -3,9 +3,5 @@
 	"description": "Repro subpackage",
 	"scripts": {
 		"commitlint": "commitlint"
-	},
-	"devDependencies": {
-		"@commitlint/config-conventional": "^17.7.0",
-		"commitlint": "^17.7.1"
 	}
 }

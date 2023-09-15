@@ -6,5 +6,9 @@
 	],
 	"scripts": {
 		"commitlint": "npm run commitlint -w repro-subpackage -- --from=HEAD~1 --verbose"
+	},
+	"devDependencies": {
+		"@commitlint/config-conventional": "^17.7.0",
+		"commitlint": "^17.7.1"
 	}
 }
